@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/walleye/proprietary/etc/firmware/music_detector.sound_model:system/etc/firmware/music_detector.sound_model \
     vendor/google/walleye/proprietary/etc/ambient/matcher_tah.leveldb:system/etc/ambient/matcher_tah.leveldb \
     vendor/google/walleye/proprietary/etc/permissions/android.hardware.telephony.euicc.xml:system/etc/permissions/android.hardware.telephony.euicc.xml \
+    vendor/google/walleye/proprietary/etc/permissions/com.customermobile.preload.vzw.xml:system/etc/permissions/com.customermobile.preload.vzw.xml \
     vendor/google/walleye/proprietary/etc/permissions/com.android.sdm.plugins.connmo.xml:system/etc/permissions/com.android.sdm.plugins.connmo.xml \
     vendor/google/walleye/proprietary/etc/permissions/com.android.sdm.plugins.sprintdm.xml:system/etc/permissions/com.android.sdm.plugins.sprintdm.xml \
     vendor/google/walleye/proprietary/etc/permissions/com.android.vzwomatrigger.xml:system/etc/permissions/com.android.vzwomatrigger.xml \
@@ -65,9 +66,11 @@ PRODUCT_COPY_FILES += \
     vendor/google/walleye/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/google/walleye/proprietary/priv-app/EuiccGoogle/esim0.img:system/priv-app/EuiccGoogle/esim0.img \
     vendor/google/walleye/proprietary/priv-app/MyVerizonServices/lib/arm64/libmotricity.so:system/priv-app/MyVerizonServices/lib/arm64/libmotricity.so
+    vendor/google/walleye/proprietary/lib64/libmotricity.so:system/priv-app/MyVerizonServices/lib/arm64/libmotricity.so
 
 PRODUCT_PACKAGES += \
     AmbientSensePrebuilt \
+    AppDirectedSMSService \
     CarrierServices \
     CarrierSetup \
     cneapiclient \
@@ -90,6 +93,7 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentTGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
     ims \
+    LLKAgent \
     libhwinfo \
     ModemService \
     MyVerizonServices \
@@ -100,6 +104,7 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     QtiTelephonyService \
     rcsimssettings \
+    Showcase \
     SprintDM \
     SprintHM \
     SSRestartDetector \
