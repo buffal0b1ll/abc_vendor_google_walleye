@@ -64,7 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/walleye/proprietary/priv-app/MyVerizonServices/lib/arm64/libmotricity.so:system/priv-app/MyVerizonServices/lib/arm64/libmotricity.so
 
 PRODUCT_PACKAGES += \
-    AmbientSensePrebuilt \
     CarrierServices \
     CarrierSetup \
     cneapiclient \
