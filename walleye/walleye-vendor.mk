@@ -106,7 +106,6 @@ PRODUCT_PACKAGES += \
     Showcase \
     SprintDM \
     SprintHM \
-    SSRestartDetector \
     TimeService \
     Tycho \
     VerizonAuthDialog \
