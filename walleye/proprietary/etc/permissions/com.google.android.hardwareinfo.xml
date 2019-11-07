@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <permissions>
-    <library name="com.google.android.hardwareinfo" file="/system/framework/libhwinfo.jar"/>
+    <library name="com.google.android.hardwareinfo" file="/product/framework/libhwinfo.jar"/>
     <privapp-permissions package="com.google.android.hardwareinfo">
         <permission name="android.permission.BIND_JOB_SERVICE"/>
         <permission name="android.permission.READ_PHONE_STATE"/>
