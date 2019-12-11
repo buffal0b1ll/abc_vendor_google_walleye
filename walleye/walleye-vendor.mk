@@ -30,7 +30,6 @@ PRODUCT_PACKAGES += \
     embms \
     EuiccGoogle \
     EuiccSupportPixel \
-    GoogleANGLE \
     HardwareInfo \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
