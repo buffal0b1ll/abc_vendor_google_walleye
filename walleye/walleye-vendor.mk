@@ -85,6 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/walleye/proprietary/etc/permissions/privapp-permissions-platform.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-platform.xml \
     vendor/google/walleye/proprietary/etc/permissions/privapp-permissions-wahoo.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-wahoo.xml \
     vendor/google/walleye/proprietary/etc/sysconfig/pixel_2017_exclusive.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/pixel_2017_exclusive.xml \
+    vendor/google/walleye/proprietary/lib/dsp/elmyra.so:$(TARGET_COPY_OUT_SYSTEM)/lib/dsp/elmyra.so \    
     vendor/google/walleye/proprietary/lib/com.qualcomm.qti.ims.radio@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.ims.radio@1.0.so \
     vendor/google/walleye/proprietary/lib/com.qualcomm.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.imsrtpservice@1.0.so \
     vendor/google/walleye/proprietary/lib/com.qualcomm.qti.qcril.qcrilhook@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.qcril.qcrilhook@1.0.so \
